@@ -1,0 +1,84 @@
+body {
+/* Task 14: I chanced the max-width in the following line from 30rem to 45rem. */
+  max-width: 45rem;
+/* Task 21: I commented out the old background color and added the new silver one. */
+  background-color: silver;
+  /* background-color: mintcream; */
+/* Task 22: I commented out the darkolivegreen color and added midnightblue */
+  color: midnightblue; 
+  /* color: darkolivegreen; */
+  font-family: 'Roboto Condensed', sans-serif;
+/* Task 19: see the line below */
+  font-family: 'Cormorant Garamond', serif;
+  margin-left: 20px;
+}
+
+html {
+  font-size: 100%;
+}
+
+/* h1 { */
+/* Task 9: I will comment out the next two lines to remove all the styling */
+  /* color: red; */
+  /* background-color: yellow; */
+/* Task 1: Instead of deleting the following line, I simply commented it out. That way I can still see what the inital code looked like. */
+  /* border: 3px dashed darkolivegreen; */
+/* } */
+
+.our-div {
+/* Task 13: I changed the alginment from right to left in the line below. */
+  text-align: left;
+}
+
+h2 {
+/* Task 10: I changed the following font size to 4rem */
+  font-size: 4rem;
+}
+
+h3 {
+/* Task 10: I changed the following font size to 3rem */
+  font-size: 3rem;
+}
+
+.paragraph-one {
+/* Task 7: I changed the follownig font size from 6rem to 2rem */
+    font-size: 2rem;
+/* Task 8: I was told to get rid of all other stylings in these classes. Therefore I'm going to comment the following 2 lines out. */
+    /* line-height: 0.9; */
+    /* opacity: 0.6; */
+/* Task 20: please see the added line below */
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.paragraph-two {
+/* Task 8: I commented out the following style line */
+    /* text-align: right; */
+/* Task 7: I changed the follownig font size from 0.6rem to 2rem */
+    font-size: 2rem;
+/* Task 20: please see the added line below */
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.paragraph-three {
+/* Task 7: I changed the follownig font size from 9rem to 2rem */
+    font-size: 2rem;
+/* Task 8: I commented out the following style line */
+    /* letter-spacing: 8px; */
+/* Task 20: please see the added line below */
+    font-family: 'Cormorant Garamond', serif;
+}
+
+/* Task 11: The task is to combine the rules for .paragraph-three, however there is no styling rule left in the lines below so I'm going to just comment out the class name. */
+  /* .paragraph-three { */
+/* Task 8: I commented out the following style line */
+   /* font-style: italic; */
+/* Task 6: I commented out the following transform line. */
+  /* transform: scaleY(-1); */
+/* } */
+
+.paragraph-four { 
+  /* Task 12: Since the only styling attribute left in paragraph-three is the font size, that I also what I added here. */
+      font-size: 2rem;
+  /* Task 20: please see the added line below */
+      font-family: 'Cormorant Garamond', serif;
+} 
